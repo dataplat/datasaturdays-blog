@@ -10,9 +10,10 @@ introduction: |
     What will happen with this here - Just wanted a different thing to see what we get
     I have no idea - Going to remove these call to action things
 
-image: /assets/img/logos/dataplatformwit.png  # URL to a hero image associated with the post (e.g., /assets/page-pic.jpg)
-thumbnail: /assets/img/logos/dataplatformwit.png
-caption: "A caption for the WIT image"
+image: 
+  path: /assets/img/logos/dataplatformwit.png  # URL to a hero image associated with the post (e.g., /assets/page-pic.jpg)
+  thumbnail: /assets/img/logos/dataplatformwit.png
+  caption: "A caption for the WIT image"
 
 # post specific author data if different from what is set in _config.yml 
 author:
