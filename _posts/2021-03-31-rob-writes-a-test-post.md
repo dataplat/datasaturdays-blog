@@ -39,7 +39,7 @@ I hope this is on another line
 
 With some more text which we like and maybe an image as well
 
-![An image](/assets/img/logos/dataplatformwit.png)
+![An image](/datasaturdays-blog/assets/img/logos/dataplatformwit.png)
 
 After the image
 
