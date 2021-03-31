@@ -17,7 +17,7 @@ lang: en-US
 title: Data Saturdays Blog
 email:
 description:
-baseurl: https://sqlcollaborative.github.io/datasaturdays-blog # the optional subpath of your site, e.g. "/blog"
+baseurl: /datasaturdays-blog # the optional subpath of your site, e.g. "/blog"
 url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 author:
   name:
