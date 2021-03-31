@@ -12,10 +12,10 @@ introduction: |
 
 # optional call to action links
 actions:
-  - label: "Learn More"
+  - label: "Learn More - This is in the header thing"
     icon: github  # references name of svg icon, see full list below
     url: "http://url-goes-here.com"
-  - label: "Download"
+  - label: "Download - this is also in there too"
     icon: download  # references name of svg icon, see full list below
     url: "http://url-goes-here.com"
 
