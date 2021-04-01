@@ -2,7 +2,8 @@
 layout: home
 entries_layout: grid
 title: Data Saturdays Blog
-subtitle: By The Community For The Community
+sub_title: By The Community For The Community
+image: /assets/img/logos/bikeride.jpg
 ---
 
 Welcome to the Data Saturdays blog. Here you will find posts about Data Saturdays in general. If you wish to write a blog post for us, please .....
