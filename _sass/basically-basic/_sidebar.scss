@@ -91,6 +91,7 @@
         }
         li {
             margin-bottom: 1.5rem;
+            @include fluid-type($min-vw, $max-vw, 12px, 20px);
         }
     }
     .contact-list {
