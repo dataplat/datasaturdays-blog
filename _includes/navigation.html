@@ -12,6 +12,11 @@
             </a>
         </li>
 
+        <!-- blog list -->
+        <div class="entries-{{ page.entries_layout | default: 'list' }}">
+            {% if site.plugins contains 'jekyll-paginate' and page.paginate or site.gems contains 'jekyll-paginate' and page.paginate %} {% comment %} Add paginator.posts loop if jekyll-paginate plugin is enabled and page.paginate == true {% endcomment %} {% include
+            posts-paginated.html %} {% else %} {% include posts-all.html %} {% endif %}
+        </div>
         <!-- site.pages links -->
         {% assign default_paths = site.pages | map: "path" %} {% assign page_paths = site.data.theme.navigation_pages | default: default_paths %} {% for path in page_paths %} {% assign my_page = site.pages | where: "path", path | first %} {% if my_page.title
         %}
