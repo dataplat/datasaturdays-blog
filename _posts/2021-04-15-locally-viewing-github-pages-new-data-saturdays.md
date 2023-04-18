@@ -16,9 +16,9 @@ tags:
  - jekyll
  - GitHub Pages
 
-image: 
-  path: https://datasaturdays.com/assets/design/facebook/c.facebook%201r.png  
-  thumbnail: https://datasaturdays.com/assets/design/facebook/c.facebook%201r.png  
+image:
+  path: https://datasaturdays.com/assets/design/facebook/c.facebook%201r.png
+  thumbnail: https://datasaturdays.com/assets/design/facebook/c.facebook%201r.png
   caption: "Data Saturdays"
 
 author: robsewell
@@ -38,13 +38,13 @@ The next challenge we face is to update the website. As the website is hosted on
 
 ## Install everything you need locally
 
-I examined the requirements to create a local development environment and this meant installing Jekyll and Ruby and a host of other things, there appeared to be a whole bundle of quirks and strange errors that may or may not need to be handled so I quickly went off that idea!!  
+I examined the requirements to create a local development environment and this meant installing Jekyll and Ruby and a host of other things, there appeared to be a whole bundle of quirks and strange errors that may or may not need to be handled so I quickly went off that idea!!
 
 ## Docker to the rescue
 
-This is a fantastic use case for using a Docker container. I can host all of the required bits inside a container, spin it up and down as I need it and I don't have to worry about polluting my machine with software and settings or the pain of having to configure it to work.  
+This is a fantastic use case for using a Docker container. I can host all of the required bits inside a container, spin it up and down as I need it and I don't have to worry about polluting my machine with software and settings or the pain of having to configure it to work.
 
-Also, other people have already done a lot of the work so I dont have to.  
+Also, other people have already done a lot of the work so I dont have to.
 
 I am running Docker in WSL2. I followed these [instructions](https://code.visualstudio.com/blogs/2020/03/02/docker-in-wsl2) to set it up. It doesn't take very long.
 
@@ -68,7 +68,7 @@ As soon as the container has started running and built the site I can see my cha
 
 Now I can make changes to the code in the website and save the file and the site will update. In the below video, you can see that I have updated the favicon so that the new logo appears.
 
-<iframe width="650" height="250" src="https://blog.robsewell.com/assets/uploads/2021/livedevelop.mp4" frameborder="0" allowfullscreen></iframe>   
+[Video Link](https://blog.robsewell.com/assets/uploads/2021/livedevelop.mp4)
 
 I shall go back to editing the site now.
 
